@@ -1,0 +1,1451 @@
+/* roboto-300 - latin_latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('fonts/roboto-v18-latin_latin-ext-300.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Light'), local('Roboto-Light'),
+    url('fonts/roboto-v18-latin_latin-ext-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/roboto-v18-latin_latin-ext-300.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/roboto-v18-latin_latin-ext-300.woff') format('woff'), /* Modern Browsers */ url('fonts/roboto-v18-latin_latin-ext-300.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/roboto-v18-latin_latin-ext-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-regular - latin_latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v18-latin_latin-ext-regular.eot'); /* IE9 Compat Modes */
+    src: local('Roboto'), local('Roboto-Regular'),
+    url('fonts/roboto-v18-latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/roboto-v18-latin_latin-ext-regular.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/roboto-v18-latin_latin-ext-regular.woff') format('woff'), /* Modern Browsers */ url('fonts/roboto-v18-latin_latin-ext-regular.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/roboto-v18-latin_latin-ext-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* roboto-500 - latin_latin-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('fonts/roboto-v18-latin_latin-ext-500.eot'); /* IE9 Compat Modes */
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+    url('fonts/roboto-v18-latin_latin-ext-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('fonts/roboto-v18-latin_latin-ext-500.woff2') format('woff2'), /* Super Modern Browsers */ url('fonts/roboto-v18-latin_latin-ext-500.woff') format('woff'), /* Modern Browsers */ url('fonts/roboto-v18-latin_latin-ext-500.ttf') format('truetype'), /* Safari, Android, iOS */ url('fonts/roboto-v18-latin_latin-ext-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+html > body {
+    font: 14px "Roboto", sans-serif;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+}
+
+a {
+    color: #65519f;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.hide {
+    display: none !important;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.nested {
+    padding-left: 42px !important;
+}
+
+.Swarmpit-new-tab {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-border-radius: 0 50px 50px 0;
+    border-radius: 0 50px 50px 0;
+    color: rgb(117, 117, 117);
+    height: 37px;
+}
+
+.Swarmpit-new-tab:hover {
+    color: #65519f;
+}
+
+.Swarmpit-root {
+    flex-grow: 1;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.Swarmpit-container {
+    padding: 0 !important;
+}
+
+.Swarmpit-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 56px;
+}
+
+.Swarmpit-context {
+    flex-grow: 1;
+    background-color: #fafafa;
+}
+
+.Swarmpit-tabs {
+    margin-top: 60px !important;
+}
+
+.Swarmpit-progress {
+    margin-top: 20px !important;
+}
+
+.Swarmpit-section {
+    margin-bottom: 10px !important;
+}
+
+.Swarmpit-card {
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.Swarmpit-card-avatar {
+    background-color: #65519f !important;
+}
+
+.Swarmpit-card-header-responsive-title {
+    word-break: break-all;
+}
+
+.Swarmpit-page {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.Swarmpit-fab {
+    position: fixed !important;
+    z-index: 2;
+    bottom: 20px;
+    left: calc(50% - 26px);
+}
+
+.Swarmpit-popper {
+    z-index: 1;
+}
+
+.Swarmpit-popover {
+    padding: 1em 2em;
+}
+
+.Swarmpit-doughnut {
+    width: 110px;
+    height: 110px;
+}
+
+.Swarmpit-filter {
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+}
+
+.Swarmpit-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Swarmpit-filter-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Swarmpit-message {
+    display: flex;
+    align-items: center;
+}
+
+.Swarmpit-message-icon {
+    opacity: 0.9;
+    margin-right: 8px;
+}
+
+.Swarmpit-paper {
+    border: 1px solid #DFE3E8;
+    border-radius: 4px;
+    padding: 24px;
+}
+
+.Swarmpit-menu-icon {
+    min-width: 0 !important;
+    margin-right: 8px;
+}
+
+.Swarmpit-autocomplete > div {
+    padding: 10px 14px !important;
+    background: #fff;
+}
+
+.Swarmpit-row {
+    display: flex;
+}
+
+.Swarmpit-row-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Swarmpit-margin-normal {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.Swarmpit-menu-info {
+    opacity: 0.7;
+}
+
+/** Dashboard **/
+
+.Swarmpit-dashboard-paper {
+    height: 100%;
+}
+
+.Swarmpit-dashboard-chip {
+    margin: 2px;
+}
+
+.Swarmpit-dashboard-section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.Swarmpit-dashboard-section-divider {
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.Swarmpit-dashboard-section-title {
+    font-family: "Open Sans", verdana, arial, sans-serif;
+    font-size: 14px !important;
+    color: rgb(68, 68, 68) !important;
+    display: flex;
+}
+
+.Swarmpit-dashboard-section-value {
+    font-weight: 500 !important;
+    font-size: 24px !important;
+}
+
+.Swarmpit-dashbord-section-graph {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.Swarmpit-dashbord-section-chips {
+    margin-left: auto;
+    justify-content: center;
+    flex-direction: column;
+    width: 120px;
+}
+
+/** Appbar **/
+
+.Swarmpit-appbar {
+    position: absolute;
+    background: #fafafa !important;
+    color: #5f6368 !important;
+    z-index: 1201 !important;
+    transition: width 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms, margin 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.Swarmpit-appbar-menu-icon {
+    min-width: 0 !important;
+    margin-right: 8px;
+}
+
+.Swarmpit-appbar-popper {
+    min-width: 200px;
+}
+
+.Swarmpit-appbar-dropdown {
+    margin-left: -8px !important;
+}
+
+.Swarmpit-appbar-dropdown-icon {
+    font-size: 30px !important;
+}
+
+.Swarmpit-appbar-avatar {
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 10px;
+}
+
+.Swarmpit-appbar-avatar-badge {
+    background-color: #44b700;
+    color: #44b700;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.Swarmpit-appbar-avatar-badge::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation: ripple 1.2s infinite ease-in-out;
+    /*border: 1px solid currentColor;*/
+    content: "";
+}
+
+.Swarmpit-appbar-search {
+    position: relative;
+    border-radius: 4px;
+    margin-right: 16px;
+    margin-left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
+    color: #000;
+    border: 1px solid rgba(65, 69, 73, 0.3);
+}
+
+.Swarmpit-appbar-subtitle {
+    display: none !important;
+    margin-left: 10px !important;
+}
+
+.Swarmpit-appbar-search:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px 0 rgba(65, 69, 73, 0.3),
+    0 1px 3px 1px rgba(65, 69, 73, 0.15);
+}
+
+.Swarmpit-appbar-search-icon {
+    width: 56px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.Swarmpit-appbar-search-root {
+    color: inherit !important;
+}
+
+.Swarmpit-appbar-search-input {
+    padding: 8px 8px 8px 80px !important;
+    transition: width 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.Swarmpit-appbar-search-mobile {
+    position: absolute;
+    display: flex;
+    top: 0 !important;
+    width: 100% !important;
+}
+
+.Swarmpit-appbar-search-mobile-root {
+    flex-grow: 1;
+}
+
+.Swarmpit-appbar-search-mobile-input {
+    color: #5f6368 !important;
+    font-size: 24px !important;
+}
+
+.Swarmpit-appbar-search-mobile-close {
+    color: #5f6368;
+}
+
+.Swarmpit-appbar-search-mobile-content {
+    background-color: #fff !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+}
+
+.Swarmpit-appbar-search-mobile-content-message {
+    flex: 1
+}
+
+.Swarmpit-appbar-search-mobile-message {
+    display: flex;
+    align-items: center;
+}
+
+.Swarmpit-appbar-avatar-big {
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 10px;
+}
+
+.Swarmpit-section-desktop,
+.Swarmpit-action-menu-desktop,
+.Swarmpit-appbar-section-desktop {
+    display: none;
+    align-items: center;
+}
+
+.Swarmpit-section-mobile,
+.Swarmpit-action-menu-mobile,
+.Swarmpit-appbar-section-mobile {
+    display: flex;
+    align-items: center;
+}
+
+/** Drawer **/
+
+.Swarmpit-drawer > div {
+    border-right: none;
+    white-space: nowrap;
+    transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.Swarmpit-drawer > ::-webkit-scrollbar {
+    width: 0; /* remove scrollbar space */
+    background: transparent; /* optional: just make scrollbar invisible */
+}
+
+.Swarmpit-drawer-content {
+    width: 225px;
+    background: #fafafa;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Swarmpit-drawer-divider {
+    margin-left: 16px !important;
+}
+
+.Swarmpit-drawer-item,
+.Swarmpit-drawer-item-selected {
+    width: 210px !important;
+}
+
+.Swarmpit-drawer-item {
+    padding-left: 24px !important;
+}
+
+.Swarmpit-drawer-item:hover {
+    background-color: transparent !important;
+}
+
+.Swarmpit-drawer-item:hover > div,
+.Swarmpit-drawer-item:hover > div > h6 {
+    color: #65519f !important;
+}
+
+.Swarmpit-drawer-item > *:hover {
+}
+
+.Swarmpit-drawer-footer {
+    width: 210px !important;
+    padding-bottom: 1rem !important;
+}
+
+.Swarmpit-drawer-footer-item-text {
+    color: #757575;
+    flex: none !important;
+    margin-right: 5px;
+}
+
+.Swarmpit-list-item-icon,
+.Swarmpit-drawer-item-icon,
+.Swarmpit-drawer-item-text > h6 {
+    color: rgb(117, 117, 117) !important;
+}
+
+.Swarmpit-drawer-item-selected {
+    background-color: rgba(99, 79, 158, 0.15) !important;
+    padding-left: 24px !important;
+    border-radius: 0 50px 50px 0 !important;
+}
+
+.Swarmpit-drawer-item-icon-selected,
+.Swarmpit-drawer-item-text-selected > h6 {
+    color: #65519f !important;
+    font-weight: 600 !important;
+}
+
+.Swarmpit-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.Swarmpit-menu-title {
+    display: flex;
+    flex-grow: 1;
+    min-height: 64px;
+    align-items: center;
+    padding-left: 24px;
+    flex-direction: row;
+    background: #fafafa;
+    margin-left: -12px;
+}
+
+.Swarmpit-desktop-title {
+    display: none;
+    min-height: 64px;
+    align-items: center;
+    flex-direction: row;
+    width: 237px;
+    margin-left: -12px;
+}
+
+.Swarmpit-title > a:link {
+    text-decoration: none;
+}
+
+.Swarmpit-title > a:visited {
+    text-decoration: none;
+}
+
+.Swarmpit-title > a:hover {
+    color: #5f6368;
+    text-decoration: underline;
+}
+
+.Swarmpit-title-name {
+    color: #5f6368;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.16667em;
+}
+
+.Swarmpit-title-version {
+    position: absolute;
+    left: 72px;
+    top: 40px;
+    color: #5f6368;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.375em;
+}
+
+/** Login screen **/
+
+.Swarmpit-login-layout {
+    margin: 0 auto;
+    width: 460px;
+    position: relative;
+}
+
+.Swarmpit-login-version {
+    color: #5f6368;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.375em;
+}
+
+.Swarmpit-login-logo {
+    margin-bottom: 20px;
+}
+
+.Swarmpit-login-paper {
+    margin: 130px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 42px 42px 36px;
+    border: 1px solid #eaeced;
+}
+
+.Swarmpit-login-avatar {
+    margin: 8px;
+    background-color: #65519f;
+}
+
+.Swarmpit-login-text {
+    color: #65519f !important;
+}
+
+.Swarmpit-login-form {
+    margin-top: 8px;
+}
+
+.Swarmpit-login-form > div {
+    margin-bottom: 24px;
+}
+
+/** Progress button **/
+
+.Swarmpit-progress-button-wrapper {
+    position: relative;
+}
+
+.Swarmpit-progress-button {
+    color: #65519f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+/** Expansion panel **/
+
+.Swarmpit-expansion-panel {
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: none !important;
+}
+
+.Swarmpit-expansion-panel:not(:last-child) {
+    border-bottom: 0;
+}
+
+.Swarmpit-expansion-panel:before {
+    display: none;
+}
+
+.Swarmpit-expansion-panel-expanded {
+    margin: 0 !important;
+}
+
+.Swarmpit-expansion-panel-summary {
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin-bottom: -1px !important;
+}
+
+/** List **/
+
+.Swarmpit-table {
+    background-color: #fff;
+    font-weight: 300;
+}
+
+.Swarmpit-table thead tr th:first-child {
+    min-width: 150px;
+}
+
+.Swarmpit-table-card > thead > tr > th,
+.Swarmpit-table-card > tbody > tr > td {
+    padding: 0 20px 0 0 !important;
+}
+
+.Swarmpit-table-card-content {
+    padding: 0 !important;
+}
+
+.Swarmpit-table-cell {
+    padding: 4px 56px 4px 4px !important;
+}
+
+.Swarmpit-table-error-tooltip {
+    color: #d32f2f;
+    padding: 4px 8px;
+    font-size: 0.625rem;
+    max-width: 300px;
+    word-wrap: break-word;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.4em;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #d32f2f;
+}
+
+.Swarmpit-table-cell-secondary {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.Swarmpit-table-head-tooltip {
+    margin-left: 2px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.Swarmpit-table-head-cell {
+    /*text-transform: uppercase !important;*/
+    /*color: rgba(0, 0, 0, 0.54) !important;*/
+}
+
+.Swarmpit-table-row {
+    height: 48px !important;
+}
+
+.Swarmpit-table-row-cell {
+    border-bottom: none !important;
+    border-top: 1px solid rgba(224, 224, 224, 1);
+    padding: 4px 16px 4px 16px !important;
+}
+
+.Swarmpit-table-row-cell > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.Swarmpit-table-footer {
+    display: flex !important;
+    border-top: 1px solid rgba(224, 224, 224, 1);
+    flex-direction: row-reverse;
+}
+
+.Swarmpit-table-info-row {
+    height: 26px !important;
+}
+
+.Swarmpit-table-status {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+.Swarmpit-list-context {
+    padding: 0 24px;
+}
+
+.Swarmpit-volume-mountpoint,
+.Swarmpit-task-error-message,
+.Swarmpit-list-item-text-primary,
+.Swarmpit-list-item-text-secondary,
+.Swarmpit-table-cell-primary,
+.Swarmpit-table-cell-secondary {
+    word-break: break-all;
+}
+
+.Swarmpit-list-item-edit > div {
+    padding-right: 10px;
+    width: 100%;
+}
+
+.Swarmpit-list-item-edit-small > div {
+    flex-direction: column;
+    max-width: 350px;
+    padding: 20px 0 20px 0;
+}
+
+/** Stepper **/
+
+.Swarmpit-stepper {
+    padding: 0 !important;
+}
+
+.Swarmpit-stepper-vertical {
+}
+
+.Swarmpit-stepper-horizontal {
+    margin-bottom: 60px !important;
+    background-color: #fafafa !important;
+}
+
+/** Form card **/
+
+.Swarmpit-ftoolbar {
+    min-height: 0 !important;
+    margin-top: 10px;
+}
+
+.Swarmpit-ftoolbar-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.Swarmpit-ftoolbar-actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.Swarmpit-ftoolbar-title {
+    margin-right: 5px !important;
+    font-weight: lighter !important;
+}
+
+.Swarmpit-ftoolbar-subtitle {
+    font-weight: 500 !important;
+    word-break: break-all;
+}
+
+.Swarmpit-fcard {
+    margin-top: 16px;
+    overflow: visible !important;
+}
+
+.Swarmpit-fcard-header {
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+}
+
+.Swarmpit-fcard-header-icon {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    padding: 15px;
+    margin-top: -20px;
+    margin-right: 15px;
+    border-radius: 3px;
+    background: #65519f;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px #65519f;
+}
+
+.Swarmpit-fcard-header-title {
+    float: none;
+    display: inline-block;
+    padding: 15px;
+    margin-top: -36px !important;
+    margin-right: 0 !important;
+    border-radius: 3px;
+    background: #65519f;
+    font-weight: lighter !important;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .14), 0 7px 10px -5px #65519f;
+}
+
+.Swarmpit-fcard-content {
+    margin-top: 10px;
+}
+
+.Swarmpit-fcard-message {
+    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+}
+
+.Swarmpit-fcard-actions {
+    padding-top: 0 !important;
+}
+
+/** Form content **/
+
+.Swarmpit-form {
+    margin-top: 10px;
+    min-height: calc(100vh - 74px);
+}
+
+.Swarmpit-form-item-wrapper {
+    margin-left: 16px;
+}
+
+.Swarmpit-form-item {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Swarmpit-form-item-name {
+    flex-basis: 150px;
+    align-items: center;
+    display: flex;
+    margin-right: 24px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.Swarmpit-form-item-value {
+    flex-grow: 1;
+    flex-shrink: 1;
+    word-break: break-all;
+    padding-right: 16px;
+}
+
+.Swarmpit-form-context {
+    padding: 24px 24px;
+}
+
+.Swarmpit-form-context input[type="number"],
+.Swarmpit-form-context input[type="checkbox"],
+.Swarmpit-form-context input[type="radio"],
+.Swarmpit-form-context input[type="password"],
+.Swarmpit-form-context input[type="select"],
+.Swarmpit-form-context input[type="text"] {
+    background-color: #fff !important;
+}
+
+.Swarmpit-form-title {
+    margin-bottom: 16px;
+}
+
+.Swarmpit-form-paper {
+    padding: 16px;
+}
+
+.Swarmpit-form-select-icon > div {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    padding: 12px 14px;
+}
+
+.Swarmpit-form-toolbar {
+    padding: 0 24px 24px;
+}
+
+.Swarmpit-form-toolbar-btn {
+    margin-right: 8px !important;
+}
+
+.Swarmpit-form-buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.Swarmpit-form-buttons > * {
+    margin-right: 8px !important;
+}
+
+.Swarmpit-form-section {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.Swarmpit-form-card {
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.Swarmpit-form-card-single {
+    max-width: 500px;
+}
+
+.Swarmpit-form-card-icon {
+    color: rgba(0, 0, 0, 0.54);
+    top: 1px;
+    position: relative;
+    margin-right: 3px;
+    font-size: 16px !important;
+}
+
+.Swarmpit-form-card-icon-item {
+    display: flex;
+}
+
+.Swarmpit-form-card-icon-item-id {
+    word-break: break-all;
+}
+
+.Swarmpit-form-card-icon-text {
+    font-size: 12px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Swarmpit-form-card-labels {
+    display: inline-flex;
+}
+
+.Swarmpit-form-card-labels > span {
+    margin-right: 5px;
+}
+
+/* Logs */
+
+.Swarmpit-log {
+    font-family: Menlo, monospace;
+    white-space: pre-wrap;
+    font-size: 13px;
+    background: black;
+    color: #CCC;
+    padding: 1em;
+    flex-grow: 1;
+}
+
+.Swarmpit-log-title {
+    margin-right: 5px !important;
+    font-weight: lighter !important;
+}
+
+.Swarmpit-log-appbar {
+    background: rgba(51, 51, 51, 0.90) !important;
+    color: #fff !important;
+}
+
+.Swarmpit-log-progress {
+    z-index: 1202 !important;
+    background-color: #333 !important;
+}
+
+.Swarmpit-log-progress > div {
+    background-color: #fff !important;
+}
+
+.Swarmpit-log-fresh {
+    animation: cooldown 5s;
+}
+
+@media (min-width: 1280px) {
+}
+
+@-webkit-keyframes cooldown {
+    from {
+        color: white;
+        text-shadow: 0 0 1px white;
+    }
+    to {
+        color: #CCC;
+    }
+}
+
+@keyframes cooldown {
+    from {
+        color: white;
+        text-shadow: 0 0 1px white;
+    }
+    to {
+        color: #CCC;
+    }
+}
+
+.Swarmpit-log-fab {
+    position: fixed;
+    opacity: 0.87;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Swarmpit-log-history-fab {
+    position: fixed;
+    top: 84px;
+    right: 20px;
+}
+
+.Swarmpit-log-history-fab > button {
+    height: 38px;
+}
+
+.Swarmpit-log-history-fab-ico {
+    margin-right: 5px;
+}
+
+.log-info {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.log-body {
+    word-break: break-all;
+}
+
+/* Labels & Status ico  */
+
+.Swarmpit-label {
+    color: #fff;
+    border-radius: 2px;
+    font-size: 10px !important;
+    font-weight: 500 !important;
+    padding: 4px 8px;
+    display: inline-flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.6);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.6);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0.6);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    }
+}
+
+.Swarmpit-label-pulsing {
+    background-color: #ffa000 !important;
+    animation: pulse 2s infinite;
+}
+
+.Swarmpit-label-green {
+    background-color: #43a047 !important;
+}
+
+.Swarmpit-label-red {
+    background-color: #d32f2f !important;
+}
+
+.Swarmpit-label-yellow {
+    background-color: #ffa000 !important;
+}
+
+.Swarmpit-label-blue {
+    background-color: #22459f !important;
+}
+
+.Swarmpit-label-primary {
+    background-color: #65519f !important;
+}
+
+.Swarmpit-label-grey,
+.Swarmpit-label-info {
+    background-color: #6c757d !important;
+}
+
+.Swarmpit-icon-ok > svg {
+    color: #52B359;
+}
+
+.Swarmpit-icon-error > svg {
+    color: #d32f2f;
+}
+
+.Swarmpit-icon-warning > svg {
+    color: #ffa000;
+}
+
+.Swarmpit-icon-accept > svg {
+    color: #22459f
+}
+
+.Swarmpit-icon-info > svg {
+    color: #6c757d;
+}
+
+/* Stats */
+
+.Swarmpit-stat {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.Swarmpit-stat-empty {
+    height: 110px;
+}
+
+.Swarmpit-stat-graph {
+    width: 90px;
+    height: 90px;
+}
+
+.Swarmpit-stat-skeleton {
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.Swarmpit-stat-skeleton::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-100%);
+    background-image: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 0,
+            rgba(255, 255, 255, 0.2) 20%,
+            rgba(255, 255, 255, 0.5) 60%,
+            rgba(255, 255, 255, 0)
+    );
+    animation: shimmer 5s infinite;
+    content: '';
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Codemirror custom */
+
+.Swarmpit-codemirror {
+    border-radius: 4px !important;
+    border: 1px solid rgba(0, 0, 0, 0.23) !important;
+}
+
+.Swarmpit-codemirror > div {
+    padding: 0 !important;
+}
+
+.Swarmpit-codemirror-info {
+    border-radius: 0 !important;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+.Swarmpit-codemirror > div {
+    padding: 0 !important;
+}
+
+.Swarmpit-codemirror-ro > div:before,
+.Swarmpit-codemirror > div:before {
+    border-bottom: none !important;
+}
+
+/* SERVICE */
+
+.Swarmpit-service-list-port {
+    font-size: 10px;
+    color: rgb(158, 158, 158);
+}
+
+.Swarmpit-service-slider-title {
+    padding-bottom: 10px;
+}
+
+.Swarmpit-task-error {
+    display: flex;
+    color: #d32f2f;
+    font-size: 0.9em;
+    align-items: center;
+    border: 1px solid #d32f2f;
+    padding: 16px;
+    border-radius: 2px;
+    background-color: rgba(211, 47, 47, 0.1);
+}
+
+.Swarmpit-task-error-icon {
+    margin-right: 0.3em;
+}
+
+.Swarmpit-volume-mount,
+.Swarmpit-task-memory-usage {
+    display: flex;
+    flex-direction: column;
+}
+
+.Swarmpit-commmand {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Swarmpit-command-text {
+    font-size: 0.9em;
+    word-break: break-all;
+}
+
+.Swarmpit-command-text > pre {
+    margin: 5px 5px 5px 0;
+}
+
+/* REPOSITORY */
+
+.Swarmpit-repo-registry-item {
+    margin-left: -24px;
+}
+
+.Swarmpit-repo-manual {
+    margin-top: 20px;
+}
+
+.Service-repo-separator {
+    font-weight: 500;
+}
+
+.Swarmpit-repo-registry-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Swarmpit-repo-registry-url {
+    font-size: 12px;
+    color: rgb(158, 158, 158);
+    padding-left: 10px;
+}
+
+/* NODE */
+
+.Swarmpit-node-href {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* Recharts customizations */
+
+.recharts-tooltip-wrapper {
+    z-index: 1;
+}
+
+.recharts-wrapper {
+    margin: 0 auto;
+}
+
+/**** MEDIA ****/
+
+/* LARGE DEVICES [LG] */
+
+@media (min-width: 1280px) {
+    .Swarmpit-context {
+        margin-left: 225px;
+    }
+
+    .Swarmpit-container {
+        padding-right: 24px !important;
+        padding-left: 24px !important;
+    }
+
+    .Swarmpit-appbar-menu-btn {
+        display: none !important;
+    }
+
+    .Swarmpit-appbar-title {
+        display: none !important;
+    }
+
+    .Swarmpit-desktop-title {
+        display: flex;
+    }
+
+    .Swarmpit-action-menu-desktop {
+        display: flex;
+    }
+
+    .Swarmpit-action-menu-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .Swarmpit-container {
+        width: calc(100vw - 48px) !important;
+    }
+}
+
+/* MEDIUM DEVICES [MD] */
+@media (min-width: 1080px) {
+    .Swarmpit-appbar-section-desktop {
+        display: flex;
+    }
+
+    .Swarmpit-appbar-section-mobile {
+        display: none;
+    }
+}
+
+/* SMALL DEVICES [SM] */
+@media (min-width: 600px) {
+    .Swarmpit-toolbar {
+        min-height: 64px;
+    }
+
+    .Swarmpit-menu-title,
+    .Swarmpit-desktop-title {
+        min-height: 64px;
+    }
+
+    .Swarmpit-drawer-closed > div {
+        width: 72px;
+    }
+
+    .Swarmpit-form-paper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .Swarmpit-appbar-search {
+        width: auto;
+        margin-left: 24px;
+    }
+
+    .Swarmpit-appbar-search-input {
+        width: 100%;
+    }
+
+    .Swarmpit-appbar-search-input:focus {
+        width: 100%;
+    }
+
+    .Swarmpit-section-desktop {
+        display: flex;
+    }
+
+    .Swarmpit-section-mobile {
+        display: none;
+    }
+
+    .Swarmpit-form-wrapper {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/* EXTRA SMALL DEVICES [XS] */
+@media all and (max-width: 600px) {
+    .Swarmpit-login-layout {
+        width: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .Swarmpit-context {
+        width: 100%;
+    }
+
+    .Swarmpit-container {
+        width: 100% !important;
+    }
+
+    .Swarmpit-form-item {
+        flex-direction: column;
+    }
+
+    .Swarmpit-form-item-name {
+        flex-basis: 0;
+    }
+
+    .Swarmpit-form-toolbar {
+        padding: 10px 10px 10px;
+    }
+
+    .Swarmpit-form-panel-search {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Swarmpit-form-context {
+        padding: 30px 10px 20px 10px;
+    }
+
+    .Swarmpit-repo-registry-text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Swarmpit-repo-registry-url {
+        padding-left: 0;
+    }
+
+    .Swarmpit-appbar-search-mobile {
+        left: 0 !important;
+        right: 0 !important;
+    }
+}

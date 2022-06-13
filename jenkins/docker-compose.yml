@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  jenkins:
+    image: jenkins/jenkins:lts
+    privileged: true
+    user: root
+    ports:
+      - 88:8080
+      - 50000:50000
+    container_name: jenkins
+    networks:
+      - traefik
+      - jenkins
+    volumes:
+      - ./jenkins_configuration:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+    deploy:
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.jenkins.entrypoints=websecure"
+        - "traefik.http.routers.jenkins.rule=Host(`jenkins.alarpae1311.site`)"
+        - "traefik.http.routers.jenkins.tls=true"
+        - "traefik.http.routers.jenkins.tls.certresolver=letsencrypt"
+        - "traefik.http.services.jenkins.loadbalancer.server.port=8080"
+
+networks:
+  traefik:
+    external: true
+  jenkins:
+    external: false
+
